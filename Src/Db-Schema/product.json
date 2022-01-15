@@ -1,0 +1,41 @@
+{
+  
+  "mappings": {
+    "properties": {
+      "Name": {
+        "type": "keyword"
+        
+      },
+      "description": {
+        "type": "keyword"
+        
+      },
+      "price": {
+        "type": "float"
+        
+      },
+      "rating": {
+        "type": "integer"
+        
+        
+      },
+   
+      "category":{
+          "type":"keyword",
+          "store":true
+  },
+      "stock":{
+        "type":"integer",
+        "store":true
+  },
+      "num_of_reviews":{
+        "type":"integer"
+        
+  }
+     
+
+}
+  }
+}
+
+

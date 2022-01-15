@@ -1,0 +1,40 @@
+{
+    "mappings": {
+"properties": {
+    "Name": {
+      "type": "keyword"
+       
+    },
+    "email": {
+      "type": "keyword"
+      
+    },
+    "password": {
+      "type": "keyword"
+      
+    },
+    "avatar_id": {
+      "type": "integer"
+      
+      
+    },
+ 
+    "avatar_url":{
+        "type":"keyword",
+        "store":true
+},
+    "role":{
+      "type":"keyword",
+      "store":true
+},
+    "resetpasswordToken":{
+      "type":"keyword"
+      
+},
+     "resetpasswordExpire":{
+      "type": "date",
+      "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+     }
+}
+}
+}

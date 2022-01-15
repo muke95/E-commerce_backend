@@ -1,0 +1,100 @@
+{
+  
+    "mappings": {
+      "properties": {
+        "address": {
+          "type": "keyword"
+          
+        },
+        "city": {
+          "type": "keyword"
+          
+        },
+        "state": {
+          "type": "keyword"
+          
+        },
+        "country": {
+            "type": "keyword"
+            
+          },
+        "Pin_code": {
+          "type": "integer"
+          
+          
+        },
+        "PhoneNo": {
+            "type": "integer"
+            
+            
+          },
+     
+        "orderItems_name":{
+            "type":"keyword",
+            "store":true
+      },
+    "orderItems_price":{
+        "type":"integer",
+        "store":true
+},
+
+    "orderItems_quantity":{
+     "type":"integer",
+    "store":true
+     },
+        "orderItems_image":{
+          "type":"string",
+          "store":true
+    },
+        "orderItems_product":{
+          "type":"integer",
+          "ref": "product",
+          "store":true
+    },
+    "user":{
+        "type":"string",
+        "store":true
+  },
+  "Payment_id":{
+    "type":"integer",
+    "store":true
+},
+"Payment_status":{
+    "type":"integer",
+    "store":true
+},
+"Payment_At":{
+    "type":"integer",
+    "store":true
+},
+
+"Payment_items_price":{
+    "type":"integer",
+    "store":true
+},
+"Payment_tax_price":{
+    "type":"integer",
+    "store":true
+},
+"shipping_price":{
+    "type":"integer",
+    "store":true
+},
+"total":{
+    "type":"integer",
+    "store":true
+},
+"order_status":{
+    "type":"string",
+    "store":true
+},
+"deliver_At":{
+    "type":"Date",
+    "store":true
+}
+    }
+  }
+}
+  
+  
+  
