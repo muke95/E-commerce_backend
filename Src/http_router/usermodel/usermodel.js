@@ -64,7 +64,7 @@ module.exports = {
     })  
     },
 
-    login: async function(req,res,next ){
+     login: async function(req,res,next ){
         const  {email,password } = req.body;
        if(!email||!password){
           res.json("please enter the email and password");
